@@ -12,6 +12,7 @@
 		BC6DDA091E676BBC007D2ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6DDA071E676BBC007D2ECB /* Main.storyboard */; };
 		BC6DDA0B1E676BBC007D2ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6DDA0A1E676BBC007D2ECB /* Assets.xcassets */; };
 		BC6DDA0E1E676BBD007D2ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6DDA0C1E676BBD007D2ECB /* LaunchScreen.storyboard */; };
+		BC6DDA161E676D04007D2ECB /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6DDA151E676D04007D2ECB /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BC6DDA0A1E676BBC007D2ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6DDA0D1E676BBD007D2ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6DDA0F1E676BBD007D2ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6DDA151E676D04007D2ECB /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cachorro.png; path = "../../../../Downloads/Curso Ios/imagens-app-idade-cachorro/cachorro.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BC6DDA021E676BBC007D2ECB /* Idade de Cachorro */ = {
 			isa = PBXGroup;
 			children = (
+				BC6DDA151E676D04007D2ECB /* cachorro.png */,
 				BC6DDA031E676BBC007D2ECB /* AppDelegate.swift */,
 				BC6DDA051E676BBC007D2ECB /* ViewController.swift */,
 				BC6DDA071E676BBC007D2ECB /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6DDA161E676D04007D2ECB /* cachorro.png in Resources */,
 				BC6DDA0E1E676BBD007D2ECB /* LaunchScreen.storyboard in Resources */,
 				BC6DDA0B1E676BBC007D2ECB /* Assets.xcassets in Resources */,
 				BC6DDA091E676BBC007D2ECB /* Main.storyboard in Resources */,

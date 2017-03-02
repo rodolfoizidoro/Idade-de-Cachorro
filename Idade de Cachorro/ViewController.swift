@@ -14,6 +14,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBOutlet weak var campoIdadeCachorro: UITextField!
+    @IBOutlet weak var legendaResultado: UILabel!
+    
+    @IBAction func descobrirIdade(_ sender: Any) {
+        
+        var idadeCachorro = Int( campoIdadeCachorro.text! )!;
+        
+        idadeCachorro = idadeCachorro * 7;
+        
+        legendaResultado.text = "A idade do cachorro é " + String(idadeCachorro) + " anos humanos." ;
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
